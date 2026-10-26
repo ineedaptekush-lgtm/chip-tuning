@@ -1,0 +1,60 @@
+{
+  "instructions": "Заменить содержимое каждого указанного div.photo-placeholder тегом img с корректными alt, width и height. Для hero загрузка fetchpriority=high, для остальных loading=lazy. Не добавлять фотографии других компаний без отдельного указания.",
+  "slots": [
+    {
+      "id": "photo-hero",
+      "purpose": "главный экран Chip Service",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-about",
+      "purpose": "мастерская и оборудование",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-service-1",
+      "purpose": "Чип-тюнинг двигателя",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-service-2",
+      "purpose": "Компьютерная диагностика",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-service-3",
+      "purpose": "Электронные системы",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-service-4",
+      "purpose": "Выхлопные системы",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-work-1",
+      "purpose": "работа Chip Service 1",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-work-2",
+      "purpose": "работа Chip Service 2",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-work-3",
+      "purpose": "работа Chip Service 3",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-work-4",
+      "purpose": "работа Chip Service 4",
+      "kind": "empty-photo-slot"
+    },
+    {
+      "id": "photo-focus",
+      "purpose": "автомобиль или процесс настройки",
+      "kind": "empty-photo-slot"
+    }
+  ]
+}
